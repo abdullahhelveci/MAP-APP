@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.label {
+  @apply max-w-max text-sm font-semibold text-purple-500 border-purple-400 border-b-[0.5px] my-1;
+}
+
+.inputt {
+  @apply w-full outline-none bg-gray-50 rounded-md border-r-2 border-b-2 focus:shadow-md p-2;
+}
